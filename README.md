@@ -1,4 +1,4 @@
-# Ecommerce Backed
+# Ecommerce Backend
 This repository contains an ecommerce backend built using an Express API and Sequelize to interact with a MySQL database. Users are able to perform all CRUD operations on Categories, Products, and Tags. As defined in sequelize, a Category `hasMany` Products and a Product `belongsTo` a Category. A Product `belongsToMany` tags, and a tag `belongsToMany` products. The API follows REST conventioins
 
 This repository utilizes
@@ -40,7 +40,7 @@ You can then test `GET`, `POST`, `PUT`, and `DELETE` requests on
 * api/tags
 
 Example of `POST` api/tags
-
+![Alt text](assets/images/ssecommerce.png)
 See the video in the description for a more detailed walkthrough of the endpoints and requests.
 
 ## Code Snippets
